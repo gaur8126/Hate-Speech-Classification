@@ -43,6 +43,62 @@ This project follows MLOps practices to make the pipeline reproducible, scalable
 ## Project Structure
 
 ```bash
+📁Hate-Speech-Classification
+└── 📁data
+    ├── dataset.zip
+└── 📁notebook
+    ├── hate_speech_exp.ipynb
+└── 📁src
+    └── 📁__pycache__
+        ├── __init__.cpython-311.pyc
+    └── 📁aws_configuration
+        ├── __init__.py
+        ├── s3_config.py
+    └── 📁components
+        ├── __init__.py
+        ├── data_ingestion.py
+        ├── data_transformation.py
+        ├── model_evaluation.py
+        ├── model_pusher.py
+        ├── model_trainer.py
+    └── 📁configuration
+        ├── __init__.py
+    └── 📁constants
+        └── 📁__pycache__
+            ├── __init__.cpython-311.pyc
+        ├── __init__.py
+    └── 📁entity
+        ├── __init__.py
+        ├── artifact_entity.py
+        ├── config_entity.py
+    └── 📁exception
+        ├── __init__.py
+    └── 📁logger
+        └── 📁__pycache__
+            ├── __init__.cpython-311.pyc
+        ├── __init__.py
+    └── 📁ml
+        ├── __init__.py
+        ├── model.py
+    └── 📁pipeline
+        ├── __init__.py
+        ├── predction_pipline.py
+        ├── train_pipline.py
+    └── 📁utils
+        ├── __init__.py
+    ├── __init__.py
+├── .dockerignore
+├── .env
+├── .gitignore
+├── app.py
+├── demo.py
+├── Dockerfile
+├── LICENSE
+├── note.txt
+├── README.md
+├── requirements.txt
+├── setup.py
+└── template.py
 
 ```
 
