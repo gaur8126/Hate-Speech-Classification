@@ -17,3 +17,6 @@ project workflow:
 - components 
 - pipeline 
 - main 
+
+video - 3 
+experimented on google colab
